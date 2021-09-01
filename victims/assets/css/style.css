@@ -151,7 +151,7 @@ a:hover {
 }
 
 .with-title > .flip-container:first-child {
-  width: 75%;
+  width: 50%;
   display: grid;
   align-items: center;
   justify-content: center;
