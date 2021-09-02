@@ -1,5 +1,5 @@
 :root {
-  --flip-container-height: 220px;
+  --flip-container-height: 300px;
 }
 
 * {
@@ -184,11 +184,13 @@ a:hover {
 
 @media only screen and (max-width: 1000px) {
   .flip-container {
-    width: 33.3%;
+    width  : 33.3%;
+    padding: 0.5%;
+    margin : 0.5% 0;
   }
 
   .with-title>.flip-container:first-child {
-    width: 33.3%;
+    width: 66.6%;
   }
 }
 
