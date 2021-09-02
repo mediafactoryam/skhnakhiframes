@@ -112,7 +112,7 @@ a:hover {
   -webkit-perspective        : 0;
   -webkit-backface-visibility: hidden;
   backface-visibility        : hidden;
-  overflow: hidden;
+  overflow                   : hidden;
 }
 
 .front>div {
@@ -172,8 +172,8 @@ a:hover {
   align-items    : center;
   justify-content: center;
   align-content  : center;
-  grid-row-gap   : 8%;
-  padding        : 0px 7%;
+  grid-row-gap   : 3%;
+  padding        : 0px 0%;
 }
 
 .with-title>.flip-container:first-child * {
